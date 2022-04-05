@@ -27,7 +27,7 @@ const todoSlice = createSlice({
 const todoReducer = todoSlice.reducer
 
 // Store
-const store = configureStore({
+export const store = configureStore({
   reducer: { todoReducer }
 })
 
@@ -35,4 +35,4 @@ const store = configureStore({
 export const todoSelector = state => state.todoReducer.allTodos
 
 // Export
-export default store
+// export default store
