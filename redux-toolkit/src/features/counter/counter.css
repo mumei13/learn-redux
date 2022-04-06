@@ -1,0 +1,19 @@
+.hihi {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.hihi div:nth-child(2) {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.hoho {
+  margin: 5px;
+}
+
+.hoho button {
+  margin-left: 10px;
+  margin-right: 10px;
+}

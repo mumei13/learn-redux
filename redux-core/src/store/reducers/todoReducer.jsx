@@ -26,7 +26,7 @@ const todoReducer = (state = initialState, action) => {
         todos: [
           ...state.todos,
           action.payload
-        ]     // unshift đưa việc vừa add lên trên. Push đưa việc vừa add xuống dưới cùng
+        ]
       }
 
     case DELETE_TODO:
